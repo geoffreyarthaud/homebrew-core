@@ -40,6 +40,7 @@ class Strongswan < Formula
   end
 
   depends_on "openssl@3"
+  depends_on "pkcs11-tools"
 
   def install
     args = %W[
